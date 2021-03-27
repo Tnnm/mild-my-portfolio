@@ -1,0 +1,9 @@
+@import "./reset.scss";
+@import "./variable.scss";
+@import "./mixins.scss";
+@import "./font.scss";
+
+* {
+	font-family: Poppins, sans-serifs;
+	font-size: $base-font-size;
+}

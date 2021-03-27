@@ -1,0 +1,52 @@
+$white: #ffffff;
+
+// Font size
+$font-size-h1: 32;
+$font-size-h2: 24;
+$font-size-h3: 18;
+$font-size-subtitle-1: 16;
+$font-size-subtitle-2: 14;
+//sentence
+$font-size-body-1: 16;
+$font-size-body-2: 14;
+$font-size-body-3: 12;
+//sentence
+$font-size-caption: 12;
+$font-size-field-title-1: 12;
+$font-size-field-title-2: 10;
+$font-size-button-1: 18;
+$font-size-button-2: 16;
+$font-size-placeholder-1: 14;
+$font-size-placeholder-2: 12;
+
+
+$base-transition-timing: 200ms;
+
+// Base
+$base-font-size: 16;
+$base-line-height: 1.5;
+
+//Color
+$color-sweet-corn: #F7DC6F;
+$color-black: #000;
+$color-grey-900: #222222;
+$color-body-background: #f5f5f5;
+$color-white-smoke: #f4f4f4;
+$color-white: #fff;
+$color-dark-slate: #464b4b;
+$color-outer: $color-dark-slate;
+$color-black-8: rgba($color-black, 0.08);
+$color-black-10: rgba($color-black, 0.1);
+$color-grey-300: #ccc;
+$color-true-blue: #0071ce;
+$color-indingo-dye: #081f8f;
+$color-indigo-dye-dark: #051664;
+$color-gliter: #e5f0fa;
+$color-sonic-silver: #787878;
+$color-deep-brow: #382a02;
+//button color
+$color-button: $color-true-blue;
+$color-button-hover: $color-indingo-dye;
+$color-button-disabled: $color-grey-300;
+//input color
+$color-input-label: $color-sonic-silver;

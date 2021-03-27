@@ -1,31 +1,37 @@
-import './App.css';
-import { useState } from 'react';
-import LoverBox from './components/LoverBox';
+import "./App.scss";
+import { useState } from "react";
+import LoverBox from "./components/LoverBox";
 
 function App() {
-
   const [isShowMILD, setIsShowMILD] = useState(false);
   const [isShowDoyoung, setIsShowDoyoung] = useState(true);
-  const [textIloveYou, setTextIloveYou] = useState('');
-
+  const [textIloveYou, setTextIloveYou] = useState("");
 
   const handleClickDYBtn = () => {
-    setIsShowMILD(!isShowMILD)
-    setTextIloveYou('MILD ♡ Tong more <3')
-  }
+    setIsShowMILD(!isShowMILD);
+    setTextIloveYou("MILD ♡ Tong more <3");
+  };
 
   const handleClickMtnnBtn = () => {
-    setIsShowDoyoung(!isShowDoyoung)
-  }
+    setIsShowDoyoung(!isShowDoyoung);
+  };
 
   return (
     <div className="App my-mild">
       <header className="App-header">
-       {isShowDoyoung && <button className="doyoung" onClick={handleClickDYBtn} >Kim Doyoung</button>}
-        <br/>
-       {isShowMILD && <button className="mild" onClick={handleClickMtnnBtn} >Mild Thananan</button>}
-       <br/>
-       {isShowMILD && <p>{textIloveYou}</p>}
+        {isShowDoyoung && (
+          <button className="doyoung" onClick={handleClickDYBtn}>
+            Kim Doyoung
+          </button>
+        )}
+        <br />
+        {isShowMILD && (
+          <button className="mild" onClick={handleClickMtnnBtn}>
+            Mild Thananan
+          </button>
+        )}
+        <br />
+        {isShowMILD && <p>{textIloveYou}</p>}
       </header>
       <div className="wrapper-lover">
         <LoverBox

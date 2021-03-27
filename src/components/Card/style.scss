@@ -1,0 +1,40 @@
+@import '../../assets/style/app.scss';
+
+.card-wrapper {
+	display: flex;
+	flex-direction: column;
+	color: red;
+	background-color: transparent;
+	position: relative;
+
+	.card-header{
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background-color: salmon;
+		color: $color-white;
+		border-radius: 8px 8px 0 0;
+		text-transform: uppercase;
+		font-size: rem(24);
+		.header {
+			@include typo-medium;
+		}
+	}
+
+	.card-body {
+		padding: rem(16);
+		color: $color-deep-brow;
+		background-color: $color-white;
+		border-radius:  0 0 8px 8px;
+		font-size: $font-size-subtitle-1;
+
+		&.not-header {
+			border-radius: rem(8);
+		}
+	}
+	filter: drop-shadow(0 0 rem(12) $color-black-8);
+
+
+}

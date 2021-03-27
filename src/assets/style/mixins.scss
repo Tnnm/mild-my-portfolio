@@ -1,0 +1,64 @@
+@function rem($pixels, $context: $base-font-size) {
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
+// Font Style
+@mixin typo-h1 {
+  font-size: rem($font-size-h1); // 32px
+  line-height: 1.25;
+}
+
+@mixin typo-medium {
+  font-size: rem($font-size-h2);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1.56px;
+}
+
+@mixin typo-h2 {
+  font-size: rem($font-size-h2); // 24px
+  font-weight: 600;
+  line-height: 1.16;
+}
+
+@mixin typo-h3 {
+  font-size: rem($font-size-h3); // 18px
+  line-height: 1.33;
+}
+
+@mixin typo-input-label-normal {
+  font-size: rem($font-size-body-1); // 16px bold 0.1
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+@mixin typo-input-label-focus {
+  font-size: rem($font-size-body-2); // 14px bold 0.1
+  font-weight: 400;
+  line-height: 1.42;
+}
+
+@mixin type-input-value {
+  font-size: rem($font-size-body-1); // 16px bold 0.1
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+@mixin typo-button-1 {
+  font-size: rem($font-size-button-1); // 16px bold 0.1
+  font-weight: 600;
+  line-height: 1.33;
+}
+
+@mixin typo-button-2 {
+  font-size: rem($font-size-button-2);
+  font-weight: 1.24;
+}

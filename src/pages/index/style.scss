@@ -1,0 +1,68 @@
+@import '../../assets/style/app.scss';
+
+.wrapper-index-page {
+	display: flex;
+
+	.profile-picture-wrapper {
+		display: flex;
+		align-items: center;
+
+		.profile-picture {
+			width: rem(150);
+			height: rem(150);
+			background-color: red;
+			border-radius: 100%;
+			margin: rem(16);
+			overflow: hidden;
+			scale: 1.5px;
+		}
+		.wrapper-profile-info {
+			font-size: $font-size-h2;
+			margin: rem(16);
+
+			.profile {
+				&-name{
+					font-size: $font-size-h1;
+					font-weight: 500;
+				}
+
+				&-position {
+					font-size: rem($font-size-subtitle-1);
+					font-weight: 300;
+				}
+
+				&-email,
+				&-tel {
+					font-size: rem($font-size-subtitle-1);
+					font-weight: 500;
+				}
+			}
+		}
+	}
+
+	.wrapper-card {
+		width: rem(500);
+	}
+
+	.social-card-wrapper {
+		width: rem(80);
+		margin-left: rem(32);
+	}
+	.social {
+		padding: rem(16);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		.wrapper-social {
+			width: rem(32);
+			height: rem(32);
+			border-radius: rem(8);
+			overflow: hidden;
+			margin: rem(16) 0;
+		}
+	}
+}
+body {
+	background-color: $color-sweet-corn;
+}
