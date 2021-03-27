@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/mild-my-portfolio/static/css/main.88789883.chunk.css",
+    "main.js": "/mild-my-portfolio/static/js/main.5781e1ea.chunk.js",
+    "main.js.map": "/mild-my-portfolio/static/js/main.5781e1ea.chunk.js.map",
+    "runtime-main.js": "/mild-my-portfolio/static/js/runtime-main.5276afcb.js",
+    "runtime-main.js.map": "/mild-my-portfolio/static/js/runtime-main.5276afcb.js.map",
+    "static/js/2.be701fff.chunk.js": "/mild-my-portfolio/static/js/2.be701fff.chunk.js",
+    "static/js/2.be701fff.chunk.js.map": "/mild-my-portfolio/static/js/2.be701fff.chunk.js.map",
+    "static/js/3.be13e242.chunk.js": "/mild-my-portfolio/static/js/3.be13e242.chunk.js",
+    "static/js/3.be13e242.chunk.js.map": "/mild-my-portfolio/static/js/3.be13e242.chunk.js.map",
+    "index.html": "/mild-my-portfolio/index.html",
+    "static/css/main.88789883.chunk.css.map": "/mild-my-portfolio/static/css/main.88789883.chunk.css.map",
+    "static/js/2.be701fff.chunk.js.LICENSE.txt": "/mild-my-portfolio/static/js/2.be701fff.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/mild-my-portfolio/static/media/Poppins-SemiBold.cce5625b.ttf",
+    "static/media/profile.96261032.jpeg": "/mild-my-portfolio/static/media/profile.96261032.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5276afcb.js",
+    "static/js/2.be701fff.chunk.js",
+    "static/css/main.88789883.chunk.css",
+    "static/js/main.5781e1ea.chunk.js"
+  ]
+}
