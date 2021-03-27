@@ -2,6 +2,9 @@
 
 .wrapper-index-page {
 	display: flex;
+	padding: rem(64);
+	overflow: hidden;
+	height: 100vh;
 
 	.profile-picture-wrapper {
 		display: flex;

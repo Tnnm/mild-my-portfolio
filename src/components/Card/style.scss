@@ -15,7 +15,7 @@
 		width: 100%;
 		background-color: salmon;
 		color: $color-white;
-		border-radius: 8px 8px 0 0;
+		border-radius: rem(16) rem(16) 0 0;
 		text-transform: uppercase;
 		font-size: rem(24);
 		.header {
@@ -27,11 +27,11 @@
 		padding: rem(16);
 		color: $color-deep-brow;
 		background-color: $color-white;
-		border-radius:  0 0 8px 8px;
+		border-radius:  0 0 rem(16) rem(16);
 		font-size: $font-size-subtitle-1;
 
 		&.not-header {
-			border-radius: rem(8);
+			border-radius: rem(16);
 		}
 	}
 	filter: drop-shadow(0 0 rem(12) $color-black-8);
