@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./style/app.scss";
+import "./assets/style/app.scss";
 import reportWebVitals from "./reportWebVitals";
 import FirstPage from "./pages/index";
 ReactDOM.render(
